@@ -1,3 +1,4 @@
+/* Elementos HTML */
 body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,6 +15,20 @@ a:hover{
     color: white;
     text-decoration: underline;
 }
+input:focus{
+    outline: none;
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+}
+
+/* Estilos de Clases */
+
 .header{
     color: white;
     height: 50px;
@@ -26,11 +41,31 @@ a:hover{
     display: grid;
     justify-content: center;
 }
-nav ul{
-    margin:0;
-    padding:0;
+
+.card{
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: tomato;
+    width: 90%;
+    max-width: 700px;
+    height: auto;
 }
-nav ul li{
-    display: inline;
-    margin: 0 20px;
+.card__title{
+
 }
+.card__input{
+    width: 90%;
+    height: 24px;
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+.card__btn{
+
+}
+
+/* Estilos de ID */

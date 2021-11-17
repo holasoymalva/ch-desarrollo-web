@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>contacto</title>
     <link rel="stylesheet" href="../estilos.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="header__menu">
             <ul>
                 <li>
                     <a href="../index.html">Inicio</a>
@@ -26,14 +26,16 @@
             </ul>
         </nav>
     </header>
-    <form action="">
-        <h3>Contactame</h3>
-        <label for="nombre">nombre:</label>
-        <input type="text" value="" placeholder="Agrega tu nombre">
-        <label for="correo">correo:</label>
-        <input type="email" name="correo">
-        <input type="submit" value="Hola soy un submit">
-    </form>
+        <form action="" class="card">
+            <h3>Contactame</h3>
+            <div>
+                <input type="text" value="" placeholder="Agrega tu nombre" class="card__input">
+            </div>
+            <div>
+                <input type="email" name="correo" placeholder="Agrega tu e-mail" class="card__input">
+            </div>
+            <input type="submit" value="Hola soy un submit">
+        </form>
     <!-- <form action="">
         <h2>Contactanos</h2>
         <p>Para nosotros es un placer contactarte</p>
