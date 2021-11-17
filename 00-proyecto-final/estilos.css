@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.header{
+    color: white;
+    height: 50px;
+    background-color: tomato;
+    display: grid;
+    align-content: center;
+}
+.header__menu{
+    margin: auto;
+    display: grid;
+    justify-content: center;
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+}
