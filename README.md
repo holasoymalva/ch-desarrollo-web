@@ -8,11 +8,11 @@
 
 ## Introduccion al Desarrollo Web
 
-## Introduccion a HTML
+## [Introduccion a HTML](https://github.com/malvabombom/CDR-HS-2350/tree/main/01-intro-html)
 
-## Introduccion al contenido Multimedia
+## [Introduccion al contenido Multimedia](https://github.com/malvabombom/CDR-HS-2350/tree/main/02-rutas-multimedia)
 
-## Introduccion al uso de estilos y CSS
+## [Introduccion al uso de estilos y CSS](https://github.com/malvabombom/CDR-HS-2350/tree/main/03-Intro-CSS)
 
 ## Dominando los estilos
 
