@@ -35,8 +35,3 @@
 ## Proyecto Final
 
 ## Contenidos Complementarios:
-
-* Dominando Visual Studio Code.
-* Como hacer usar Linkedin Jr Developer.
-* Temas que todo desarrollador JS debe conocer.
-* Como encontrar nuestro primer empleo en TI.
