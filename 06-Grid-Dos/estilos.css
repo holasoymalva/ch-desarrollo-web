@@ -4,17 +4,18 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 .menu{
+    margin: 0;
     color: white;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
 }
 .menu li{
     display: inline;
     margin: 10px 10px;
 }
+
 /* Seccion en negro */
 
 #section-negro{
@@ -47,11 +48,13 @@ body{
 #section-negro__texto2{
     grid-area: texto2;
 }
+
 /* Seccion Blanca */
+
 #section-blanco{
-    display: flex;
-    max-width: 700px;
     margin: auto;
+    max-width: 700px;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -65,7 +68,7 @@ body{
     font-size: 2rem;
 }
 .responsive-img{
+    height: auto;
     width: 100%;
     max-width: 300px;
-    height: auto;
 }
