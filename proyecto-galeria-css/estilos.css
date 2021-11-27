@@ -22,6 +22,18 @@ body{
     display: inline;
     margin: 10px;
 }
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
 
 .bienvenida{
     margin-top: 30px;
@@ -29,6 +41,9 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    color: white;
+    min-height: 500px;
 }
 .bienvenida__descripcion{
     width: 100%;
@@ -49,6 +64,9 @@ body{
     flex-direction: column;
     align-items: center;
     margin-bottom: 40px;
+}
+.galeria h2{
+    padding-top: 30px;
 }
 .galeria__scroll{
     /* background-color: coral; */
