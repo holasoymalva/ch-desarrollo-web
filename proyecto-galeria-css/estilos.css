@@ -14,8 +14,15 @@ body{
     position: fixed;
     display: flex;
     justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
+}
+
+#menu ul{
+    margin: 0;
+    padding:0;
+    padding-right: 20px;
 }
 
 #menu li{
