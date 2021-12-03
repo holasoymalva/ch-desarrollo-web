@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    background: #FCF5EA;
+}
+
+#plantilla{
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+        " header header" /* 100px */
+        " producto publicidad" /* 2fr */
+        " servicios publicidad" /* 3fr */
+        " footer footer"; /* 170px */
+        /* 20%  auto 200px  */
+    grid-template-rows: 60px 3fr 2fr 60px;
+    grid-template-columns: auto 200px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+}
+
+header{
+    grid-area: header;
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    align-content: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    display: inline;
+    padding: 10px 10px;
+    border-radius: 15px 0 15px 0;
+}
+
+nav ul li:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+footer{
+    display: grid;
+    justify-content: center; /* Horizontal */
+    align-items: center; /* vertical */
+    grid-area: footer;
+    color: #fff;
+    background-color: #000;
+}
+footer h2{
+    justify-self: center;
+    align-self: center;
+}
+
+
+#servicios{
+    grid-area: servicios;
+    text-align: center;
+}
+#productos{
+    grid-area: producto;
+    text-align: center;
+}
+.productos__contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    padding: 15px;
+}
+.productos__contenedor__card{
+    width: 150px;
+    height: 250px;
+    background-color: #FCF5EA;
+    background-color: rgb(223, 223, 223);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.publicidad{
+    grid-area: publicidad;
+    background-color: blueviolet;
+    background-image: url(https://images.unsplash.com/photo-1601645191163-3fc0d5d64e35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80);
+}
+
+.menu{
+    grid-area: menu;
+    background-color: crimson;
+}
+
+.border-items{
+    /* border: 3px;
+    border-color: black;
+    border-style: solid; */
+}
