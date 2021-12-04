@@ -10,11 +10,12 @@ body{
     height: 100vh;
     grid-template-areas:
         " header header" /* 100px */
+        "logo logo"
         " producto publicidad" /* 2fr */
         " servicios publicidad" /* 3fr */
         " footer footer"; /* 170px */
         /* 20%  auto 200px  */
-    grid-template-rows: 60px 3fr 2fr 60px;
+    grid-template-rows: 60px 150px 3fr 2fr 60px;
     grid-template-columns: auto 200px;
     grid-column-gap: 10px;
     grid-row-gap: 20px;
@@ -99,6 +100,41 @@ footer h2{
     grid-area: producto;
     text-align: center;
 }
+#logo{
+    grid-area: logo;
+    display:grid;
+    justify-items: center;
+}
+#logo svg{
+    width: 80px;
+    height: auto;
+    transform: translate( 50%, 50%);
+}
+.fadein{
+    animation: fadeIn 2s infinite linear;
+}
+.spin{
+    animation: spin 1s infinite linear;
+}
+@keyframes spin{
+    from { transform: rotate(0deg);}
+    to { transform:rotate(360deg);}
+}
+@keyframes fadeIn{
+    0%{
+        opacity: .25;
+    }
+    50%{
+        opacity: .5;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: .5;
+    }
+}
+
 .productos__contenedor{
     display: flex;
     flex-wrap: wrap;
