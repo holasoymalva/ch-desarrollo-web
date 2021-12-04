@@ -20,6 +20,18 @@ body{
     grid-row-gap: 20px;
 }
 
+@media(max-width: 700px){
+    #plantilla{
+        grid-template-areas:
+            " header header"
+            " producto producto"
+            " publicidad publicidad"
+            " servicios servicios"
+            " footer footer";
+        grid-template-rows: 60px 3fr 150px 2fr 60px;
+    }
+}
+
 header{
     grid-area: header;
     background-color: #000;
