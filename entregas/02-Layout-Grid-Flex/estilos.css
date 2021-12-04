@@ -31,6 +31,12 @@ body{
         grid-template-rows: 60px 3fr 150px 2fr 60px;
     }
 }
+@media(max-width: 500px){
+    #plantilla{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 header{
     grid-area: header;
